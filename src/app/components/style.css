@@ -1,0 +1,28 @@
+.header{
+    background-color: aqua;
+    color:black
+}
+
+.quadrado{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.title{
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+.btn{
+    margin: 10px;
+    width: 100px;
+    height: 5vh;
+    border-radius: 5px;
+    background-color: aliceblue;
+    color: black;
+}
+.footer{
+    background-color: yellow;
+    color: black;
+}
