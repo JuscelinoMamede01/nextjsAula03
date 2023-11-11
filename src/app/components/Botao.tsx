@@ -5,7 +5,7 @@ const Botao = () => {
   function handleColor() {
     const button = document.getElementById("btn");
     if (button) {
-      button.style.backgroundColor = "red";
+      button.style.backgroundColor = "yellow";
     }
   }
   return (
