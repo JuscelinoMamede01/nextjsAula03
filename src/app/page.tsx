@@ -1,4 +1,5 @@
 import Botao from "./components/Botao";
+import Btn2 from "./components/Btn2";
 import { Header } from "./components/Header";
 import { Imagem } from "./components/Imagem";
 import { ListaItens } from "./components/ListaItens";
@@ -14,6 +15,7 @@ export default function Home() {
       <Titulo />
       <Quadrado />
       <Botao />
+      <Btn2 />
       <ListaItens />
       <Imagem />
       <Paragrafo />
