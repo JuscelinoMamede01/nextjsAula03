@@ -1,8 +1,12 @@
 import "./button.css";
-const Button = () => {
+
+interface BtnValue {
+  btnValue: string;
+}
+const Button = ({ btnValue }: BtnValue) => {
   return (
     <>
-      <button className="button-7 col">Entrar</button>
+      <button className="button-7">{btnValue}</button>
     </>
   );
 };
